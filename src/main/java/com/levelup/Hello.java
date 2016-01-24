@@ -31,5 +31,8 @@ public class Hello {
         Hello h = (Hello) ac.getBean("hello");
         h.sayHello();
         System.out.println();
+        Shape shape = (Rictangle) ac.getBean("rictangle");
+        System.out.println("square = " + shape.calculateSquare());
+
     }
 }
